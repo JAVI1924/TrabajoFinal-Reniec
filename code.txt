@@ -1,0 +1,206 @@
+
+JaviS@JaviLaptop MINGW64 ~
+$ ^[[200~git clone https://github.com/tu-usuario/tu-repositorio.git
+bash: $'\E[200~git': command not found
+
+JaviS@JaviLaptop MINGW64 ~
+$ git clone https://github.com/JAVI1924/TrabajoFinal-Reniec.git
+Cloning into 'TrabajoFinal-Reniec'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+JaviS@JaviLaptop MINGW64 ~
+$ ^[[200~git checkout -b develop
+bash: $'\E[200~git': command not found
+
+JaviS@JaviLaptop MINGW64 ~
+$ cd TrabajoFinal-Reniec
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (main)
+$ ^[[200~git checkout -b develop
+bash: $'\E[200~git': command not found
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (main)
+$ git checkout -b develop
+git push origin develop
+Switched to a new branch 'develop'
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/JAVI1924/TrabajoFinal-Reniec/pull/new/develop
+remote:
+To https://github.com/JAVI1924/TrabajoFinal-Reniec.git
+ * [new branch]      develop -> develop
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (develop)
+$ git checkout -b feature/SolucionReniec
+Switched to a new branch 'feature/SolucionReniec'
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (feature/SolucionReniec)
+$ git add .
+git commit -m "Automatizacion de reniec"
+git push origin feature/SolucionReniec
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'JaviS@JaviLaptop.(none)')
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'feature/SolucionReniec' on GitHub by visiting:
+remote:      https://github.com/JAVI1924/TrabajoFinal-Reniec/pull/new/feature/SolucionReniec
+remote:
+To https://github.com/JAVI1924/TrabajoFinal-Reniec.git
+ * [new branch]      feature/SolucionReniec -> feature/SolucionReniec
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (feature/SolucionReniec)
+$
+git checkout -b release/v1.0 develop
+git push origin release/v1.0
+Switched to a new branch 'release/v1.0'
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'release/v1.0' on GitHub by visiting:
+remote:      https://github.com/JAVI1924/TrabajoFinal-Reniec/pull/new/release/v1.0
+remote:
+To https://github.com/JAVI1924/TrabajoFinal-Reniec.git
+ * [new branch]      release/v1.0 -> release/v1.0
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (release/v1.0)
+$ git add .
+git commit -m "Preparación de la versión 1.0"
+git push origin release/v1.0
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'JaviS@JaviLaptop.(none)')
+Everything up-to-date
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (release/v1.0)
+$ git checkout main
+git pull origin main
+git tag -a v1.0 -m "Versión 1.0"
+git push origin v1.0
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/JAVI1924/TrabajoFinal-Reniec
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Committer identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'JaviS@JaviLaptop.(none)')
+error: src refspec v1.0 does not match any
+error: failed to push some refs to 'https://github.com/JAVI1924/TrabajoFinal-Reniec.git'
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (main)
+$ git checkout main
+git pull origin main
+git tag -a v1.0 -m "Versión 1.0"
+git push origin v1.0
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/JAVI1924/TrabajoFinal-Reniec
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Committer identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'JaviS@JaviLaptop.(none)')
+error: src refspec v1.0 does not match any
+error: failed to push some refs to 'https://github.com/JAVI1924/TrabajoFinal-Reniec.git'
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (main)
+$ git checkout main
+git pull origin main
+git tag -a v1.0 -m "Versión 1.0"
+git push origin v1.0
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/JAVI1924/TrabajoFinal-Reniec
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Committer identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'JaviS@JaviLaptop.(none)')
+error: src refspec v1.0 does not match any
+error: failed to push some refs to 'https://github.com/JAVI1924/TrabajoFinal-Reniec.git'
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (main)
+$ git checkout -b hotfix/v1.0.1 main
+Switched to a new branch 'hotfix/v1.0.1'
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (hotfix/v1.0.1)
+$ git add .
+git commit -m "Arreglado bug crítico en producción"
+git push origin hotfix/v1.0.1
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'JaviS@JaviLaptop.(none)')
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'hotfix/v1.0.1' on GitHub by visiting:
+remote:      https://github.com/JAVI1924/TrabajoFinal-Reniec/pull/new/hotfix/v1.0.1
+remote:
+To https://github.com/JAVI1924/TrabajoFinal-Reniec.git
+ * [new branch]      hotfix/v1.0.1 -> hotfix/v1.0.1
+
+JaviS@JaviLaptop MINGW64 ~/TrabajoFinal-Reniec (hotfix/v1.0.1)
+$
